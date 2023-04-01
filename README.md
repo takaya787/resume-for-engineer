@@ -1,14 +1,14 @@
 # Takaya Ebino's resume
 
-![textlint](https://img.shields.io/github/workflow/status/kawamataryo/resume/lint%20text?label=textlint&logo=github&color=yellow)
-![build pdf](https://img.shields.io/github/workflow/status/kawamataryo/resume/build-pdf?label=build%20pdf&logo=github)
-![release date](https://img.shields.io/github/release-date/kawamataryo/resume?color=blue&logo=github)
+![textlint](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/lint%20text?label=textlint&logo=github&color=yellow)
+![build pdf](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/build-pdf?label=build%20pdf&logo=github)
+![release date](https://img.shields.io/github/release-date/takaya787/resume-for-enginner?color=blue&logo=github)
 
 ## Data
 
-- [GitHub Pages](https://kawamataryo.github.io/resume/)
-- [PDF](https://github.com/kawamataryo/resume/releases)
-- [File](https://github.com/kawamataryo/resume/blob/master/docs/README.md)
+- [GitHub Pages](https://github.com/takaya787/resume-for-enginner/)
+- [PDF](https://github.com/takaya787/resume-for-enginner/releases/)
+- [File](https://github.com/takaya787/resume-for-enginner/blob/master/docs/README.md)
 
 ## Features
 
