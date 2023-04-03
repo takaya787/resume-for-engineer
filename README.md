@@ -3,17 +3,17 @@
 <p>
 <a href="https://github.com/takaya787/resume-for-enginner/actions/workflows/lint-text.yml">
 
-[textlint](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/lint%20text?label=textlint&logo=github&color=yellow)
+![textlint](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/lint%20text?label=textlint&logo=github&color=yellow)
 </a>
 
-<a href="https://github.com/takaya787/resume-for-enginner/actions?query=workflow%3A%22lint+text%22">
+<a href="https://github.com/takaya787/resume-for-enginner/actions?query=workflow%3A%22build+pdf%22">
 
-[build pdf](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/build-pdf?label=build%20pdf&logo=github)
+![build pdf](https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/build-pdf?label=build%20pdf&logo=github)
 </a>
 
-<a href="https://github.com/takaya787/resume-for-enginner/actions?query=workflow%3A%22lint+text%22">
+<a href="https://github.com/takaya787/resume-for-enginner/tags">
 
-[release date](https://img.shields.io/github/release-date/takaya787/resume-for-enginner?color=blue&logo=github)
+![release date](https://img.shields.io/github/release-date/takaya787/resume-for-enginner?color=blue&logo=github)
 </a>
 
 </p>
