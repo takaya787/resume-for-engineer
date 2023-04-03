@@ -80,7 +80,6 @@
 - AWS を用いたインフラ環境での障害対応経験
 - Go 言語を用いた API の開発経験
 - Vue.js を用いた SPA の開発経験
-- Git を用いたバージョン管理の経験
 
 ### 株式会社 DeNA【内定者インターン】（2021/06〜2021/10）
 
@@ -103,7 +102,6 @@
 
 ##### 技術スキル：
 
-- 開発言語：JavaScript、TypeScript
-- フレームワーク：Next.js、React、Express
-- テスト：Cypress、MSW、Jest、React Testing Library
-- バージョン管理：Git
+- Next.js による SPA 開発
+- Storybook によるコンポーネント開発の効率化
+- E2E（End-to-End）テストにおいて、Cypress と MSW を使用したテストカバレッジの向上
