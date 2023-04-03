@@ -13,9 +13,9 @@
 ## 各種アカウント
 
 <p>
-<a href="https://github.com/takaya787" target="_blank"><img alt="Github" src="https://img.shields.io/badge/takaya787-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
-<a href="https://qiita.com/takaya787" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/takaya787-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
-
+  <a href="https://github.com/takaya787" target="_blank"><img alt="Github" src="https://img.shields.io/badge/takaya787-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
+  <a href="https://qiita.com/takaya787" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/takaya787-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
+</p>
 ---
 
 ## 保有スキル
@@ -34,6 +34,7 @@
   <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
   <!-- <img alt="Go" src="https://img.shields.io/badge/-Go-?style=flat-square&logo=Go&logoColor=" /> -->
 </p>
+---
 
 ### フレームワーク・その他
 
@@ -44,6 +45,7 @@
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
  <!-- <img alt="AWS" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" /> -->
 </p>
+---
 
 ## 職務経歴詳細
 
