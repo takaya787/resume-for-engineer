@@ -22,7 +22,7 @@
 
 - Ruby on Rails でのサーバーサイド開発
 - AWS を用いたインフラ環境構築、保守
-- TypeScript + (Next.js or Vue.js)でのフロントエンド開発
+- TypeScript + (Next.js and Vue.js)でのフロントエンド開発
 
 ---
 
@@ -90,7 +90,7 @@
   - 期間：2021 年 6 月 〜 2021 年 10 月
   - 役割：エンジニア（フロントエンド）
   - チーム規模：6 人
-  - 技術スタック：Next.js、Storybook、Cypress、MSW、 Circle CI
+  - 技術スタック：Next.js、Storybook、Cypress、MSW
   - 目的：Pococha ライブ配信サービスの web アプリケーションの開発・改善を行い、ユーザー体験を向上をさせること
 
 ##### 担当業務・貢献内容：
@@ -104,4 +104,4 @@
 
 - Next.js による SPA 開発
 - Storybook によるコンポーネント開発の効率化
-- E2E（End-to-End）テストにおいて、Cypress と MSW を使用したテストカバレッジの向上
+- E2E（End-to-End）テストにおいて、Circle CI 上での Cypress と MSW を使用したテストカバレッジの向上
