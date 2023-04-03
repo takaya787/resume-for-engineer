@@ -6,7 +6,7 @@
 
 ## Data
 
-- [GitHub Pages](https://github.com/takaya787/resume-for-enginner/)
+- [GitHub Pages](https://takaya787.github.io/resume-for-enginner/)
 - [PDF](https://github.com/takaya787/resume-for-enginner/releases/)
 - [File](https://github.com/takaya787/resume-for-enginner/blob/master/docs/README.md)
 
