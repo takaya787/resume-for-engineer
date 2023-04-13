@@ -22,7 +22,7 @@
 
 - Ruby on Rails でのサーバーサイド開発
 - AWS を用いたインフラ環境構築、保守
-- TypeScript + (Next.js and Vue.js)でのフロントエンド開発
+- TypeScript + (React and Vue)でのフロントエンド開発
 
 ---
 
@@ -34,7 +34,6 @@
   <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-blue.svg?logo=go&style=flat" />
 </p>
 ---
 
@@ -61,7 +60,7 @@
   - 期間：2022 年 7 月〜 現在
   - 役割：エンジニア（サーバーサイド、フロントエンド）
   - チーム規模：7 人
-  - 技術スタック：Ruby on Rails, Vue(Typescript), Go
+  - 技術スタック：Ruby on Rails, Vue(Typescript)
   - 目的：新規参入した音声ライブ配信サービスにおいて、ユーザーが音声だけで楽しめるライブ体験を提供すること
 
 ##### 担当業務・貢献内容：
@@ -70,9 +69,8 @@
   - 新機能のデータベース設計、開発を担当し、高速で信頼性の高いシステムの構築に貢献
   - AWS インフラ環境下での障害対応を経験
   - Docker, AWS ECS を用いたコンテナベースでの開発、運用を経験
-- Go + Vue.js を用いたマスタデータ管理ツール開発
+- Vue.js を用いたマスタデータ管理ツールのフロントエンド開発
   - Vuex を用いた状態管理を導入
-  - Go を用いた API の開発、運用を経験
 
 ##### 技術スキル：
 
@@ -80,7 +78,6 @@
 - データベース運用の設計、最適化の経験
 - AWS を用いたインフラ環境での障害対応経験
 - Docker を用いたコンテナ環境の構築経験
-- Go 言語を用いた API の開発経験
 - Vue.js を用いた SPA の開発経験
 
 ### 株式会社 DeNA【内定者インターン】（2021/06〜2021/10）
