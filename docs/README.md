@@ -88,11 +88,11 @@
 
 ## 職務経歴詳細 (インターン、教務委託等）
 
-### 株式会社 purpom-media-lab（2023/10〜）業務委託
+### 株式会社 purpom-media-lab（2023/10〜2024/2）業務委託
 
 - プロジェクト概要：
   - プロジェクト名：active core
-  - 期間：2023 年 10 月〜 月
+  - 期間：2023 年 11 月〜 2024 年 2 月
   - 役割：エンジニア（フロントエンド）
   - チーム規模：5 人
   - 技術スタック：Next.js
@@ -100,8 +100,7 @@
 #### 担当業務・貢献内容：
 
 - Next.js, RestAPI, OpenAPI を用いたフロントエンドの開発
-  - React Hook Form, Yup などを用いた複雑な要件のフォーム作成
-  - React Material UI を用いた Page, Component 開発
+  - React Material UI を用いた コンポーネント駆動開発
 
 ### 株式会社 purpom-media-lab（2023/07〜10）業務委託
 
@@ -110,7 +109,7 @@
   - 期間：2023 年 7 月〜 10 月
   - 役割：エンジニア（サーバーサイド、フロントエンド）
   - チーム規模：4 人
-  - 技術スタック：Next.js, Nest.js(Typescript)
+  - 技術スタック：Next.js, NestJs + Prisma(Typescript)
 
 #### 担当業務・貢献内容：
 
