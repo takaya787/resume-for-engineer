@@ -16,7 +16,7 @@ jobs:
           node-version: "18"
       - run: npm install
       - name: build pdf
-        run: npm run build:pdf
+        run: npm run build:pdf | npm run build-en:pdf
       - name: create release
         id: create_release
         uses: actions/create-release@v1
@@ -36,4 +36,14 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./docs/README.pdf
           asset_name: resume.pdf
+          asset_content_type: application/pdf
+      - name: upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./docs/en/README.pdf
+          asset_name: resume-en.pdf
           asset_content_type: application/pdf

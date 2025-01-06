@@ -1,5 +1,10 @@
 # Takaya Ebino's resume
 
+This repository contains my resume in both Japanese and English.
+
+- [Japanese Version (日本語)](./docs/README.md)
+- [English Version](./docs/en/README.md)
+
 <p>
 
 <a href="https://github.com/takaya787/resume-for-enginner/actions/workflows/lint-text.yml" target="_blank"><img alt="lint_text" src="https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/lint%20text?label=textlint&logo=github&color=yellow" /></a>
