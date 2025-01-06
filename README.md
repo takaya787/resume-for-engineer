@@ -2,8 +2,8 @@
 
 This repository contains my resume in both Japanese and English.
 
-- [Japanese Version (日本語)](./docs/README.md)
-- [English Version](./docs/en/README.md)
+- [Japanese Version (日本語)]("https://takaya787.github.io/resume-for-enginner/")
+- [English Version]("https://takaya787.github.io/resume-for-enginner/en")
 
 <p>
 
