@@ -6,6 +6,7 @@
     "lint": "textlint docs/README.md",
     "fix": "textlint --fix docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js",
+    "build-en:pdf": "md-to-pdf docs/en/README.md --config-file ./pdf-configs/config.js",
     "prepare": "husky install"
   },
   "keywords": [],
