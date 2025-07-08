@@ -21,11 +21,13 @@
 ## 保有スキル
 
 - Ruby on Rails でのサーバーサイド開発
+- Java/Spring Boot でのサーバーサイド開発
 - 複雑な要件を持った機能のデータベース設計
 - スクラムマスタとして、チームの生産性向上のアシスト
 - AWS を用いたインフラ環境構築、保守
 - TypeScript + (React and Vue)でのフロントエンド開発
-- TypeScript + (NestJS + GraphQL)でのサーバーサイド開発
+- 決済システムの設計・実装（Amazon Pay, GMO, Stripe）
+- マイクロサービス環境での結果整合性を意識したシステム設計
 
 ---
 
@@ -35,6 +37,7 @@
 
 <p>
   <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 </p>
@@ -44,8 +47,9 @@
 
 <p>
   <img alt="Ruby-on-Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=Ruby-on-Rails&logoColor=white" />
-  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
+  <img alt="SpringBoot" src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Vue" src="https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
   <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&style=flat" />
   <img alt="CircleCI" src="https://img.shields.io/badge/CircleCI-%23161616.svg?logo=circleci&style=flat" />
@@ -54,11 +58,47 @@
 
 ## 職務経歴詳細 (正社員）
 
-### 株式会社 DeNA（2022/04〜 現在）
+### STORES 株式会社（2025/02〜 現在）
+
+プロジェクト概要：
+
+- **プロジェクト概要**：
+- プロジェクト名：stores 決済での stores 連系強化
+- 期間：2025 年 2 月〜2025 年 5 月
+- 役割：ソフトウェアエンジニア（サーバーサイド）
+- チーム規模：8 人
+- 技術スタック：Java 8, Spring Boot
+- 目的：stores 決済と stores の連携強化による利便性向上
+
+#### 担当業務・貢献内容：
+
+- stores 決済の OIDC による stores ログイン対応
+- stores オンボーディングサービスとデータ連携機能開発
+- 複数サービス間での結果整合性を意識したサービス設計を担当
+
+---
+
+- **プロジェクト概要**：
+- プロジェクト名：stores 予約での Stripe 決済からの GMO 決済移行
+- 期間：2025 年 6 月〜2025 年 12 月
+- 役割：ソフトウェアエンジニア（サーバーサイド、フロントエンド）
+- チーム規模：4 人
+- 技術スタック：Rails 8, Ruby 3.4
+- 目的：決済システムの内製化によるコスト削減と機能拡張
+
+#### 担当業務・貢献内容：
+
+- GMO 決済のサーバーサイド実装と 3D Secure 認証を含むフロントエンド実装
+- 審査、入金業務の Stripe 依存からの脱却
+- 既存の決済が動いている状態での段階的な決済移行プロジェクトを主導
+
+---
+
+### 株式会社 DeNA（2022/04〜 2024/12）
 
 - **プロジェクト概要**：
   - プロジェクト名：Voice Pococha
-  - 期間：2022 年 7 月〜 現在
+  - 期間：2022 年 7 月〜 2024 年 12 月
   - 役割：エンジニア（サーバーサイド、フロントエンド）
   - チーム規模：7 人
   - 技術スタック：Ruby on Rails, Vue(Typescript)
@@ -88,6 +128,8 @@
   - GMO Payment Gateway を用いた Apple Pay 決済機能を導入
   - GMO Payment Gateway を用いた Google Pay 決済機能を導入
 
+---
+
 ## 職務経歴詳細 (インターン、教務委託等）
 
 ### 株式会社 glasp（2024/4〜2024/5）業務委託
@@ -105,10 +147,12 @@
   - Next 14 での SSR を用いたコンポーネント開発
   - FireStore を用いた NoSQL でのデータベース設計
 
+---
+
 ### 株式会社 purpom-media-lab（2023/10〜2024/2）業務委託
 
 - **プロジェクト概要**：
-  - プロジェクト名：active core
+  - プロジェクト名：広告配信管理サービス
   - 期間：2023 年 11 月〜 2024 年 2 月
   - 役割：エンジニア（フロントエンド）
   - チーム規模：5 人
@@ -122,7 +166,7 @@
 ### 株式会社 purpom-media-lab（2023/07〜10）業務委託
 
 - **プロジェクト概要**：
-  - プロジェクト名：freee 介護加算
+  - プロジェクト名：介護加算業務ツール
   - 期間：2023 年 7 月〜 10 月
   - 役割：エンジニア（サーバーサイド、フロントエンド）
   - チーム規模：4 人
@@ -135,6 +179,8 @@
 - nest.js, prisma を用いたバックエンドの 開発、test 作成
   - @nestjs/graphql を用いた Service,Resolver の作成
   - Jest を用いたユニットテスト、統合テストの作成
+
+---
 
 ### 株式会社 DeNA【内定者インターン】（2021/06〜2021/10）
 
