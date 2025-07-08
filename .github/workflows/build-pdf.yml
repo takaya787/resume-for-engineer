@@ -8,10 +8,10 @@ on:
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "18"
       - run: npm install
@@ -19,14 +19,16 @@ jobs:
         run: npm run build:pdf && npm run build-en:pdf
       - name: create release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
+          files: |
+            ./docs/README.pdf
+            ./docs/en/README.pdf
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: upload Release Asset
         id: upload-release-asset-ja
         uses: actions/upload-release-asset@v1
@@ -37,13 +39,15 @@ jobs:
           asset_path: ./docs/README.pdf
           asset_name: resume.pdf
           asset_content_type: application/pdf
-      - name: upload Release Asset
-        id: upload-release-asset-en
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: rename and upload assets
+        run: |
+          cp ./docs/README.pdf ./resume.pdf
+          cp ./docs/en/README.pdf ./resume-en.pdf
+      - name: upload additional assets
+        uses: softprops/action-gh-release@v1
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/en/README.pdf
-          asset_name: resume-en.pdf
-          asset_content_type: application/pdf
+          tag_name: ${{ github.ref_name }}
+          files: |
+            ./resume.pdf
+            ./resume-en.pdf
+          token: ${{ secrets.GITHUB_TOKEN }}
