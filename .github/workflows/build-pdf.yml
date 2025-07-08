@@ -9,8 +9,6 @@ jobs:
   build:
     name: build pdf and upload release
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: install system dependencies for md-to-pdf
@@ -59,8 +57,7 @@ jobs:
           cp ./docs/en/README.pdf ./resume-en.pdf
       - name: progress debugger
         run: echo "=== create release and upload assets ==="
-      - name: create release and upload assets
-        uses: softprops/action-gh-release@v1
+      - uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.ref_name }}
           name: Release ${{ github.ref_name }}
