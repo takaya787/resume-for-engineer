@@ -16,32 +16,39 @@
   <a href="https://github.com/takaya787" target="_blank"><img alt="Github" src="https://img.shields.io/badge/takaya787-%2312100E.svg?&style=flat-square&logo=Github&logoColor=white" /></a>
   <a href="https://qiita.com/takaya787" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/takaya787-55C500.svg?&style=flat-square&logo=qiita&logoColor=white" /></a>
 </p>
+
+---
+
+## 概要・アピールポイント
+
+**3 年間のフルスタックエンジニアとしての実務経験**を活かし、**決済システム開発**と**スクラムマスタとしてのチームマネジメント**に知見を持ったソフトウェアエンジニアです。
+
+**主な強み：**
+
+- **決済システムの設計・実装**（Amazon Pay, GMO, Stripe）における豊富な実務経験
+- 複雑な要件を持つ機能のデータベース設計とマイクロサービス環境での結果整合性を意識したシステム設計
+- スクラムマスタとして**7 名のチームマネジメント**実績
+- Ruby on Rails、Java/Spring Boot、TypeScript(React/Vue)を用いたフルスタック開発
+
+**技術的成果：**
+
+- 高リクエスト数のライブ配信アプリの安定運用
+- 複数の決済サービス（Amazon Pay, Apple Pay, Google Pay）の導入実装
+- 段階的な決済移行プロジェクトの主導（Stripe→GMO）
+- AWS 環境でのインフラ構築・保守
+
 ---
 
 ## 保有スキル
-
-- Ruby on Rails でのサーバーサイド開発
-- Java/Spring Boot でのサーバーサイド開発
-- 複雑な要件を持った機能のデータベース設計
-- スクラムマスタとして、チームの生産性向上のアシスト
-- AWS を用いたインフラ環境構築、保守
-- TypeScript + (React and Vue)でのフロントエンド開発
-- 決済システムの設計・実装（Amazon Pay, GMO, Stripe）
-- マイクロサービス環境での結果整合性を意識したシステム設計
-
----
-
-## 技術スタック
 
 ### 言語
 
 <p>
   <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=Java&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 </p>
----
 
 ### フレームワーク・その他
 
@@ -54,147 +61,125 @@
   <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?logo=amazon-aws&style=flat" />
   <img alt="CircleCI" src="https://img.shields.io/badge/CircleCI-%23161616.svg?logo=circleci&style=flat" />
 </p>
+
+### 専門分野
+
+- 決済システム設計・実装（Amazon Pay, GMO Payment Gateway, Stripe）
+- マイクロサービス環境での結果整合性を意識したシステム設計
+- 複雑な要件を持つ機能のデータベース設計
+- チームマネジメント（スクラムマスタ）
+- AWS 環境でのインフラ構築・保守
+
 ---
 
-## 職務経歴詳細 （正社員）
+## 職務経歴
 
-### STORES 株式会社（2025/02〜 現在）
+### STORES 株式会社 | ソフトウェアエンジニア（2025/02〜現在）
 
-- **プロジェクト概要**：
-  - プロジェクト名：stores 決済での stores 連系強化
-  - 期間：2025 年 2 月〜2025 年 5 月
-  - 役割：ソフトウェアエンジニア（サーバーサイド）
-  - チーム規模：8 人
-  - 技術スタック：Java 8, Spring Boot
-  - 目的：stores 決済と stores の連携強化による利便性向上
+**【プロジェクト 1】STORES 決済と STORES 連係強化**  
+_期間：2025 年 2 月〜2025 年 5 月 | チーム規模：8 人 | 技術：Java 8, Spring Boot_
 
-#### 担当業務・貢献内容：
+**担当業務・成果：**
 
-- stores 決済の OIDC による stores ログイン対応
-- stores オンボーディングサービスとデータ連携機能開発
+- STORES 決済の OIDC による STORES ログイン対応を実装
+- STORES オンボーディングサービスとのデータ連携機能を開発
 - 複数サービス間での結果整合性を意識したサービス設計を担当
+- **利便性向上により、サービス間の連携を強化**
 
 ---
 
-- **プロジェクト概要**：
-  - プロジェクト名：stores 予約での Stripe 決済からの GMO 決済移行
-  - 期間：2025 年 6 月〜2025 年 12 月
-  - 役割：ソフトウェアエンジニア（サーバーサイド、フロントエンド）
-  - チーム規模：4 人
-  - 技術スタック：Rails 8, Ruby 3.4
-  - 目的：決済システムの内製化によるコスト削減と機能拡張
+**【プロジェクト 2】STORES 予約 決済システム移行**  
+_期間：2025 年 6 月〜2025 年 12 月 | チーム規模：4 人 | 技術：Rails 8, Ruby 3.4_
 
-#### 担当業務・貢献内容：
+**担当業務・成果：**
 
 - GMO 決済のサーバーサイド実装と 3D Secure 認証を含むフロントエンド実装
-- 審査、入金業務の Stripe 依存からの脱却
-- 既存の決済が動いている状態での段階的な決済移行プロジェクトを主導
+- 審査・入金業務の Stripe 依存からの脱却を実現
+- **決済システムの内製化によるコスト削減と安定性の向上を実現**
 
 ---
 
-### 株式会社 DeNA（2022/04〜 2024/12）
+### 株式会社 DeNA | ソフトウェアエンジニア（2022/04〜2024/12）
 
-- **プロジェクト概要**：
-  - プロジェクト名：Voice Pococha
-  - 期間：2022 年 7 月〜 2024 年 12 月
-  - 役割：エンジニア（サーバーサイド、フロントエンド）
-  - チーム規模：7 人
-  - 技術スタック：Ruby on Rails, Vue(Typescript)
-  - 目的：新規参入した音声ライブ配信サービスにおいて、ユーザーが音声だけで楽しめるライブ体験を提供すること
+**【プロジェクト】Voice Pococha**  
+_期間：2022 年 7 月〜2024 年 12 月 | チーム規模：7 人 | 技術：Ruby on Rails, Vue(TypeScript)_
 
-#### 担当業務 (1 年目）：
+**1 年目（2022 年 7 月〜2023 年 6 月）：エンジニア**
 
-- サーバーサイドおよびフロントエンドのエンジニアとして貢献
-  - 高リクエスト数のライブ配信アプリの Server 開発と運用
-  - 新機能のデータベース設計および開発
-  - AWS インフラ環境下での CS 調査と障害対応
-  - Docker, AWS ECS を用いたコンテナベースの開発と運用
+- 高リクエスト数のライブ配信アプリの Server 開発と運用
+- 新機能のデータベース設計および開発
+- AWS インフラ環境下での CS 調査と障害対応
+- Docker, AWS ECS を用いたコンテナベースの開発と運用
 
-#### 担当業務 (2 年目）：
+**2 年目（2023 年 7 月〜2024 年 6 月）：開発リーダー**
 
-- 開発期間が半年に及ぶプロジェクトの開発リーダー
-  - スケーラビリティを考慮した新機能のデータベース設計
-  - スクラムを用いたチームでプロジェクトの進行管理・調整
+- **6 ヶ月間のプロジェクトの開発リーダーとして、プロジェクトの進行管理・調整**
+- スケーラビリティを考慮した新機能のデータベース設計
+- スクラムを用いたチーム開発の進行管理
 
-#### 担当業務 (3 年目）：
+**3 年目（2024 年 7 月〜2024 年 12 月）：スクラムマスター**
 
-- 7 名のエンジニアチームのスクラムマスター
-  - スプリントごとのメンバーのタスクの進捗管理
-  - タスクの見積もりとスプリントの計画作成のサポート
-- 外部決済サービスを用いた決済機能の導入
-  - Amazon Pay 決済機能を導入
-  - GMO Payment Gateway を用いた Apple Pay 決済機能を導入
-  - GMO Payment Gateway を用いた Google Pay 決済機能を導入
+- **7 名のエンジニアチームのスクラムマスタとして、チームの生産性向上をサポート**
+- スプリントごとのメンバーのタスクの進捗管理
+- タスクの見積もりとスプリント計画作成のサポート
+
+**決済機能に関する実績：**
+
+- Amazon Pay 決済機能の導入
+- GMO Payment Gateway を用いた Apple Pay 決済機能の導入
+- GMO Payment Gateway を用いた Google Pay 決済機能の導入
 
 ---
 
-## 職務経歴詳細 (インターン、教務委託等）
+## その他の実務経験
 
-### 株式会社 glasp（2024/4〜2024/5）業務委託
+### 株式会社 glasp | フロントエンドエンジニア（業務委託）
 
-- **プロジェクト概要**：
-  - プロジェクト名：glasp
-  - 期間：2024 年 3 月〜 2024 年 5 月
-  - 役割：エンジニア（フロントエンド）
-  - チーム規模：3 人
-  - 技術スタック：Next.js, Firebase
+_期間：2024 年 4 月〜2024 年 5 月 | チーム規模：3 人 | 技術：Next.js, Firebase_
 
-#### 担当業務・貢献内容：
+- Next.js、Firebase を用いたフロントエンド開発
+- Next 14 での SSR を用いたコンポーネント開発
+- FireStore を用いた NoSQL でのデータベース設計
 
-- Next.js, Firebase を用いたフロントエンドの開発
-  - Next 14 での SSR を用いたコンポーネント開発
-  - FireStore を用いた NoSQL でのデータベース設計
+### 株式会社 purpom-media-lab | フルスタックエンジニア（業務委託）
 
----
+_期間：2023 年 7 月〜2024 年 2 月 | 技術：Next.js, NestJS + Prisma(TypeScript)_
 
-### 株式会社 purpom-media-lab（2023/10〜2024/2）業務委託
+**広告配信管理サービス（2023 年 10 月〜2024 年 2 月）**
 
-- **プロジェクト概要**：
-  - プロジェクト名：広告配信管理サービス
-  - 期間：2023 年 11 月〜 2024 年 2 月
-  - 役割：エンジニア（フロントエンド）
-  - チーム規模：5 人
-  - 技術スタック：Next.js
+- Next.js、RestAPI、OpenAPI を用いたフロントエンド開発
+- React Material UI を用いたコンポーネント駆動開発
 
-#### 担当業務・貢献内容：
+**介護加算業務ツール（2023 年 7 月〜10 月）**
 
-- Next.js, RestAPI, OpenAPI を用いたフロントエンドの開発
-  - React Material UI を用いた コンポーネント駆動開発
+- Next.js、GraphQL を用いたフロントエンド開発
+- Apollo Client を用いた GraphQL 開発
+- NestJS、Prisma を用いたバックエンド開発、テスト作成
+- @nestjs/graphql を用いた Service、Resolver の作成
+- Jest を用いたユニットテスト、統合テストの作成
 
-### 株式会社 purpom-media-lab（2023/07〜10）業務委託
+### 株式会社 DeNA | 内定者インターン（2021/06〜2021/10）
 
-- **プロジェクト概要**：
-  - プロジェクト名：介護加算業務ツール
-  - 期間：2023 年 7 月〜 10 月
-  - 役割：エンジニア（サーバーサイド、フロントエンド）
-  - チーム規模：4 人
-  - 技術スタック：Next.js, NestJs + Prisma(Typescript)
+**Pococha Web**  
+_期間：2021 年 6 月〜2021 年 10 月 | チーム規模：6 人 | 技術：Next.js(TypeScript), Storybook, Cypress, MSW_
 
-#### 担当業務・貢献内容：
-
-- Next.js, GraphQL を用いたフロントエンドの開発
-  - Apollo Client を用いた GraphQL 開発
-- nest.js, prisma を用いたバックエンドの 開発、test 作成
-  - @nestjs/graphql を用いた Service,Resolver の作成
-  - Jest を用いたユニットテスト、統合テストの作成
-
----
-
-### 株式会社 DeNA【内定者インターン】（2021/06〜2021/10）
-
-#### ライブ配信サービス Pococha の web チームでの開発インターン
-
-- **プロジェクト概要**：
-  - プロジェクト名：Pococha Web
-  - 期間：2021 年 6 月 〜 2021 年 10 月
-  - 役割：エンジニア（フロントエンド）
-  - チーム規模：6 人
-  - 技術スタック：Next.js(Typescript)、Storybook、Cypress、MSW
-  - 目的：ライブ配信サービスにおける web アプリケーションの開発・改善を行い、ユーザー体験を向上をさせること
-
-#### 担当業務・貢献内容：
-
-- Next.js, Storybook, MSW を用いたコンポーネント駆動の SPA 開発
-  - プロジェクト内での共通コンポーネントの作成と、既存のコンポーネントの改善
+- Next.js、Storybook、MSW を用いたコンポーネント駆動の SPA 開発
+- プロジェクト内での共通コンポーネントの作成と既存コンポーネントの改善
 - Cypress を用いた E2E テストの改善
-  - CirCle CI 上で E2E（End-to-End）テストを導入し、テストカバレッジを向上
+- Circle CI 上で E2E（End-to-End）テストを導入し、テストカバレッジを向上
+
+---
+
+## 学歴
+
+**大阪大学 工学部 応用理工学科**（2018 年 4 月〜2022 年 3 月）
+
+---
+
+## 自己 PR
+
+**技術力とリーダーシップの両面で成長し続けるエンジニア**
+
+DeNA での 2 年 9 ヶ月の経験を通じて、エンジニアからスクラムマスタまで段階的にキャリアを積み、技術力とマネジメント力の両方を磨いてきました。特に決済システムの設計・実装において、Amazon Pay、GMO Payment Gateway、Stripe など複数の決済サービスの実装経験があり、現在の STORES 株式会社でも決済システムの移行プロジェクトを担当しています。
+
+またマイクロサービス環境での結果整合性を意識したシステム設計や、高リクエスト数のライブ配信アプリの安定運用など、スケーラブルなシステム開発の経験があります。今後も上記の経験を活かして、より大きな技術的課題に挑戦していきたいと考えています。
