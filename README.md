@@ -2,24 +2,24 @@
 
 This repository contains my resume in both Japanese and English.
 
-- [Japanese Version (日本語)](https://takaya787.github.io/resume-for-enginner/)
-- [English Version](https://takaya787.github.io/resume-for-enginner/en)
+- [Japanese Version (日本語)](https://takaya787.github.io/resume-for-engineer/)
+- [English Version](https://takaya787.github.io/resume-for-engineer/en)
 
 <p>
 
-<a href="https://github.com/takaya787/resume-for-enginner/actions/workflows/lint-text.yml" target="_blank"><img alt="lint_text" src="https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/lint%20text?label=textlint&logo=github&color=yellow" /></a>
+<a href="https://github.com/takaya787/resume-for-engineer/actions/workflows/lint-text.yml" target="_blank"><img alt="lint_text" src="https://img.shields.io/github/workflow/status/takaya787/resume-for-engineer/lint%20text?label=textlint&logo=github&color=yellow" /></a>
 
-<a href="https://github.com/takaya787/resume-for-enginner/actions?query=workflow%3A%22build+%22" target="_blank" ><img alt="build_pdf" src="https://img.shields.io/github/workflow/status/takaya787/resume-for-enginner/build-pdf?label=build%20pdf&logo=github"/></a>
+<a href="https://github.com/takaya787/resume-for-engineer/actions?query=workflow%3A%22build+%22" target="_blank" ><img alt="build_pdf" src="https://img.shields.io/github/workflow/status/takaya787/resume-for-engineer/build-pdf?label=build%20pdf&logo=github"/></a>
 
-<a href="https://github.com/takaya787/resume-for-enginner/tags" target="_blank" ><img alt="release" src="https://img.shields.io/github/release-date/takaya787/resume-for-enginner?color=blue&logo=github"/></a>
+<a href="https://github.com/takaya787/resume-for-engineer/tags" target="_blank" ><img alt="release" src="https://img.shields.io/github/release-date/takaya787/resume-for-engineer?color=blue&logo=github"/></a>
 
 </p>
 
 ## Data
 
-- [GitHub Pages](https://takaya787.github.io/resume-for-enginner/)
-- [PDF](https://github.com/takaya787/resume-for-enginner/releases/)
-- [File](https://github.com/takaya787/resume-for-enginner/blob/master/docs/README.md)
+- [GitHub Pages](https://takaya787.github.io/resume-for-engineer/)
+- [PDF](https://github.com/takaya787/resume-for-engineer/releases/)
+- [File](https://github.com/takaya787/resume-for-engineer/blob/master/docs/README.md)
 
 ## Features
 

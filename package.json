@@ -1,7 +1,7 @@
 {
-  "name": "resume-for-enginner",
+  "name": "resume-for-engineer",
   "version": "1.0.0",
-  "description": "This is resume as software enginner",
+  "description": "This is resume as software engineer",
   "scripts": {
     "lint": "textlint docs/README.md",
     "fix": "textlint --fix docs/README.md",
