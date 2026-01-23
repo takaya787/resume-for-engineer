@@ -178,19 +178,14 @@ _期間：2023 年 7 月〜2024 年 2 月 | 技術：Next.js, NestJS + Prisma(Ty
 
 ### 株式会社 DeNA | 内定者インターン（2021/06〜2021/10）
 
-**Pococha Web**  
+**Pococha Web**
+
 _期間：2021 年 6 月〜2021 年 10 月 | チーム規模：6 人 | 技術：Next.js(TypeScript), Storybook, Cypress, MSW_
 
 - Next.js、Storybook、MSW を用いたコンポーネント駆動の SPA 開発
 - プロジェクト内での共通コンポーネントの作成と既存コンポーネントの改善
 - Cypress を用いた E2E テストの改善
 - Circle CI 上で E2E（End-to-End）テストを導入し、テストカバレッジを向上
-
----
-
-## 学歴
-
-**大阪大学 工学部 応用理工学科**（2018 年 4 月〜2022 年 3 月）
 
 ---
 

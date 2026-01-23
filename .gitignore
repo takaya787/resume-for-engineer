@@ -1,3 +1,17 @@
 node_modules
 .DS_Store
 **/*.pdf
+
+# Jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/Gemfile.lock
+.sass-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+mise.toml
