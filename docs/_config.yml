@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: "Takaya Ebino - Software Engineer"
+description: "Full-stack engineer specializing in payment systems, microservices, and team management"
+show_downloads: false
+google_analytics: # Add your GA tracking ID if needed
