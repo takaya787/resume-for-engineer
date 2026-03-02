@@ -21,12 +21,14 @@
 
 ## Summary & Key Strengths
 
-Software engineer with **3 years of full-stack engineering experience**, specializing in **payment system development** and **team management as a Scrum Master**.
+Software engineer with **4 years of full-stack engineering experience**, specializing in **payment system development** and **team management as a Scrum Master**.
 
 **Core Strengths:**
 
 - Extensive hands-on experience in **payment system design and implementation** (Amazon Pay, GMO, Stripe)
-- Database design for complex requirements and system design with eventual consistency in microservice environments
+- Practical knowledge in merchant screening, payment processing, and settlement operations for payment gateway systems
+- Payment system migration (Stripe→GMO) design and implementation experience in payment gateway systems
+- System design with eventual consistency across multiple services in STORES' microservice architecture
 - **Team management experience** leading a 7-member team as Scrum Master
 - Full-stack development using Ruby on Rails, Java/Spring Boot, TypeScript (React/Vue)
 
@@ -34,7 +36,8 @@ Software engineer with **3 years of full-stack engineering experience**, special
 
 - Stable operation of high-traffic live streaming applications
 - Implementation of multiple payment services (Amazon Pay, Apple Pay, Google Pay)
-- Led a phased payment system migration project (Stripe→GMO)
+- Led implementation of a phased payment migration project across payment, screening, and settlement (Stripe→GMO)
+- Full-stack implementation of 3D Secure authentication
 - Infrastructure construction and maintenance in AWS environments
 
 ---
@@ -65,8 +68,7 @@ Software engineer with **3 years of full-stack engineering experience**, special
 ### Specialized Areas
 
 - Payment system design and implementation (Amazon Pay, GMO Payment Gateway, Stripe)
-- System design with eventual consistency in microservice environments
-- Database design for complex requirements
+- System design with eventual consistency across multiple services in STORES' microservice architecture
 - Team management (Scrum Master)
 - Infrastructure construction and maintenance in AWS environments
 
@@ -83,18 +85,21 @@ _Period: February 2025 - May 2025 | Team Size: 8 people | Technology: Java 8, Sp
 
 - Implemented STORES login support for STORES Payment using OIDC
 - Developed data integration features with STORES onboarding service
-- Handled service design with eventual consistency across multiple services
+- Handled service design with eventual consistency across multiple services in STORES' microservice architecture
 - **Enhanced inter-service integration through improved usability**
 
 ---
 
-**[Project 2] STORES Booking Payment System Migration**  
-_Period: June 2025 - December 2025 | Team Size: 4 people | Technology: Rails 8, Ruby 3.4_
+**[Project 2] STORES Booking Payment System Migration**
+_Period: June 2025 - March 2026 | Team Size: 4 people | Technology: Rails 8, Ruby 3.4_
 
 **Responsibilities & Achievements:**
 
-- Server-side implementation of GMO payments and frontend implementation including 3D Secure authentication
-- Achieved independence from Stripe dependency for review and deposit operations
+- Led server-side implementation of payment functionality using GMO Payment Gateway
+- Implemented 3D Secure authentication on both frontend and server-side
+- Proposed and implemented migration strategy for payment, screening, and settlement from Stripe to GMO
+- Proposed a phased migration plan starting with new contracts
+- Implemented data migration from Stripe to GMO and ensured data integrity
 - **Realized cost reduction and improved stability through in-house payment system development**
 
 ---
@@ -180,6 +185,6 @@ _Period: June 2021 - October 2021 | Team Size: 6 people | Technology: Next.js(Ty
 
 **Engineer who continues to grow in both technical skills and leadership**
 
-Through my 2 years and 9 months of experience at DeNA, I have gradually built my career from engineer to Scrum Master, developing both technical and management skills. I have particular experience in payment system design and implementation, having worked with multiple payment services including Amazon Pay, GMO Payment Gateway, and Stripe. I am currently handling a payment system migration project at STORES, Inc.
+Through my 2 years and 9 months at DeNA and 1 year at STORES, I have gradually built my career from engineer to Scrum Master, developing both technical and management skills. I have particular experience in payment system design and implementation, having worked with multiple payment services including Amazon Pay, GMO Payment Gateway, and Stripe. At STORES, I led the implementation of a migration project covering payment, screening, and settlement from Stripe to GMO.
 
-I also have experience in scalable system development, including system design with eventual consistency in microservice environments and stable operation of high-traffic live streaming applications. I look forward to leveraging these experiences to tackle even greater technical challenges in the future.
+I also have experience in scalable system development, including system design with eventual consistency across multiple services in STORES' microservice architecture and stable operation of high-traffic live streaming applications. I look forward to leveraging these experiences to tackle even greater technical challenges in the future.
