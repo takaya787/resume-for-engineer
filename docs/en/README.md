@@ -26,19 +26,20 @@ Software engineer with **4 years of full-stack engineering experience**, special
 **Core Strengths:**
 
 - Extensive hands-on experience in **payment system design and implementation** (Amazon Pay, GMO, Stripe)
-- Practical knowledge in merchant screening, payment processing, and settlement operations for payment gateway systems
-- Payment system migration (Stripe→GMO) design and implementation experience in payment gateway systems
-- System design with eventual consistency across multiple services in STORES' microservice architecture
+- Domain knowledge across the full payment lifecycle: merchant screening, payment processing, and settlement
+- Payment system migration (Stripe→GMO) design and implementation experience
 - **Team management experience** leading a 7-member team as Scrum Master
 - Full-stack development using Ruby on Rails, Java/Spring Boot, TypeScript (React/Vue)
 
-**Technical Achievements:**
+---
 
-- Stable operation of high-traffic live streaming applications
-- Implementation of multiple payment services (Amazon Pay, Apple Pay, Google Pay)
-- Led implementation of a phased payment migration project across payment, screening, and settlement (Stripe→GMO)
-- Full-stack implementation of 3D Secure authentication
-- Infrastructure construction and maintenance in AWS environments
+## Self-Introduction
+
+**Engineer capable of end-to-end payment system design and migration**
+
+Over 4 years at DeNA and STORES, I have built my career as a full-stack engineer specializing in payment systems. At DeNA, I introduced three payment methods — Amazon Pay, Apple Pay, and Google Pay. At STORES, I completed a Stripe-to-GMO payment migration with zero downtime for a service with GMV of over 1 billion yen, contributing to annual cost savings of tens of millions of yen.
+
+Beyond payment integration, I have hands-on experience in designing and migrating entire payment infrastructures — including merchant screening and settlement. I can address domain-specific technical challenges such as full-stack 3D Secure authentication and ensuring data integrity during migration. Going forward, I aim to leverage this expertise to take on larger-scale payment infrastructure projects and technical decision-making.
 
 ---
 
@@ -78,43 +79,51 @@ Software engineer with **4 years of full-stack engineering experience**, special
 
 ### STORES, Inc. | Software Engineer (February 2025 - Present)
 
-**[Project 1] STORES Payment and STORES Integration Enhancement**  
+**[Project 1] STORES Payment and STORES Integration Enhancement**
 _Period: February 2025 - May 2025 | Team Size: 8 people | Technology: Java 8, Spring Boot_
 
-**Responsibilities & Achievements:**
+**Purpose:**
+
+- **Enhancing product value through strengthened inter-service integration**
+
+**Responsibilities:**
 
 - Implemented STORES login support for STORES Payment using OIDC
 - Developed data integration features with STORES onboarding service
 - Handled service design with eventual consistency across multiple services in STORES' microservice architecture
-- **Enhanced inter-service integration through improved usability**
 
 ---
 
 **[Project 2] STORES Booking Payment System Migration**
 _Period: June 2025 - March 2026 | Team Size: 4 people | Technology: Rails 8, Ruby 3.4_
 
-**Responsibilities & Achievements:**
+**Purpose:**
+
+- **Reduction of payment fees and improved stability for a service with GMV of over 1 billion yen**
+
+**Responsibilities:**
 
 - Led server-side implementation of payment functionality using GMO Payment Gateway
 - Implemented 3D Secure authentication on both frontend and server-side
 - Proposed and implemented migration strategy for payment, screening, and settlement from Stripe to GMO
 - Proposed a phased migration plan starting with new contracts
 - Implemented data migration from Stripe to GMO and ensured data integrity
-- **Realized cost reduction and improved stability through in-house payment system development**
+
+**Results:**
+
+- Completed migration of all payment, screening, and settlement operations with zero downtime
+- Achieved annual cost savings of tens of millions of yen through improved payment fee rates
 
 ---
 
-### DeNA Co., Ltd. | Software Engineer (April 2022 - December 2024)
+### DeNA Co., Ltd. | Software Engineer (April 2022 - January 2025)
 
-**[Project] Voice Pococha**  
-_Period: July 2022 - December 2024 | Team Size: 7 people | Technology: Ruby on Rails, Vue(TypeScript)_
+**[Project] Voice Pococha**
+_Period: July 2022 - January 2025 | Team Size: 7 people | Technology: Ruby on Rails, Vue(TypeScript)_
 
 **Year 1 (July 2022 - June 2023): Engineer**
 
-- Server development and operation of high-traffic live streaming application
-- Database design and development for new features
-- CS investigation and incident response in AWS infrastructure environment
-- Container-based development and operations using Docker and AWS ECS
+- Server development, database design, and AWS infrastructure operations for a high-traffic live streaming application
 
 **Year 2 (July 2023 - June 2024): Development Leader**
 
@@ -122,7 +131,7 @@ _Period: July 2022 - December 2024 | Team Size: 7 people | Technology: Ruby on R
 - Database design for new features considering scalability
 - Progress management of team development using Scrum methodology
 
-**Year 3 (July 2024 - December 2024): Scrum Master**
+**Year 3 (July 2024 - January 2025): Scrum Master & Engineer**
 
 - **Supported team productivity improvement as Scrum Master for 7-member engineering team**
 - Progress management of member tasks for each sprint
@@ -135,56 +144,3 @@ _Period: July 2022 - December 2024 | Team Size: 7 people | Technology: Ruby on R
 - Implementation of Google Pay payment functionality using GMO Payment Gateway
 
 ---
-
-## Additional Professional Experience
-
-### Glasp, Inc. | Frontend Engineer (Contract)
-
-_Period: April 2024 - May 2024 | Team Size: 3 people | Technology: Next.js, Firebase_
-
-- Frontend development using Next.js and Firebase
-- Component development using SSR with Next 14
-- NoSQL database design using Firestore
-
-### Purpom Media Lab, Inc. | Full-Stack Engineer (Contract)
-
-_Period: July 2023 - February 2024 | Technology: Next.js, NestJS + Prisma(TypeScript)_
-
-**Ad Delivery Management Service (October 2023 - February 2024)**
-
-- Frontend development using Next.js, REST API, and OpenAPI
-- Component-driven development using React Material UI
-
-**Care Benefit Operations Tool (July 2023 - October 2023)**
-
-- Frontend development using Next.js and GraphQL
-- GraphQL development using Apollo Client
-- Backend development and testing using NestJS and Prisma
-- Creation of Services and Resolvers using @nestjs/graphql
-- Creation of unit tests and integration tests using Jest
-
-### DeNA Co., Ltd. | Internal Student Intern (June 2021 - October 2021)
-
-**Pococha Web**  
-_Period: June 2021 - October 2021 | Team Size: 6 people | Technology: Next.js(TypeScript), Storybook, Cypress, MSW_
-
-- Component-driven SPA development using Next.js, Storybook, and MSW
-- Creation of common components and improvement of existing components within the project
-- E2E test improvement using Cypress
-- Introduced E2E (End-to-End) testing on Circle CI and improved test coverage
-
----
-
-## Education
-
-**Osaka University, School of Engineering, Applied Science and Engineering** (April 2018 - March 2022)
-
----
-
-## Self-Introduction
-
-**Engineer who continues to grow in both technical skills and leadership**
-
-Through my 2 years and 9 months at DeNA and 1 year at STORES, I have gradually built my career from engineer to Scrum Master, developing both technical and management skills. I have particular experience in payment system design and implementation, having worked with multiple payment services including Amazon Pay, GMO Payment Gateway, and Stripe. At STORES, I led the implementation of a migration project covering payment, screening, and settlement from Stripe to GMO.
-
-I also have experience in scalable system development, including system design with eventual consistency across multiple services in STORES' microservice architecture and stable operation of high-traffic live streaming applications. I look forward to leveraging these experiences to tackle even greater technical challenges in the future.
