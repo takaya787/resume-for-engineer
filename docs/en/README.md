@@ -95,7 +95,7 @@ _Period: February 2025 - May 2025 | Team Size: 8 people | Technology: Java 8, Sp
 ---
 
 **[Project 2] STORES Booking Payment System Migration**
-_Period: June 2025 - March 2026 | Team Size: 4 people | Technology: Rails 8, Ruby 3.4_
+_Period: June 2025 - Current | Team Size: 4 people | Technology: Rails 8, Ruby 3.4 | Role: Member_
 
 **Purpose:**
 
