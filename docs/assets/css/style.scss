@@ -626,7 +626,8 @@ body {
 }
 
 /* Project metadata styling */
-.main-content h3 + p em {
+.main-content h3 + p em,
+.main-content p > strong + em {
   color: var(--text-secondary);
   font-size: 0.9em;
   display: block;
