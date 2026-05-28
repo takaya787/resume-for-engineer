@@ -69,7 +69,7 @@ Beyond payment integration, I have hands-on experience in designing and migratin
 ### Specialized Areas
 
 - Payment system design and implementation (Amazon Pay, GMO Payment Gateway, Stripe)
-- System design with eventual consistency across multiple services in STORES' microservice architecture
+- System design with eventual consistency across multiple services in microservice architecture
 - Team management (Scrum Master)
 - Infrastructure construction and maintenance in AWS environments
 
@@ -80,7 +80,7 @@ Beyond payment integration, I have hands-on experience in designing and migratin
 ### STORES, Inc. | Software Engineer (February 2025 - Present)
 
 **[Project 1] STORES Payment and STORES Integration Enhancement**
-_Period: February 2025 - May 2025 | Team Size: 8 people | Technology: Java 8, Spring Boot_
+_Period: February 2025 - May 2025 | Team Size: 8 people | Technology: Java 8, Spring Boot | Role: Member_
 
 **Purpose:**
 
