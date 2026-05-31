@@ -16,6 +16,7 @@ module.exports = {
   stylesheet_encoding: "utf-8",
   launch_options: {
     // GitHub Actions環境でのサンドボックス問題を解決
+    // 注意: --single-process はフォントレンダリングが壊れる事があるため使わない
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
@@ -23,7 +24,6 @@ module.exports = {
       "--disable-gpu",
       "--no-first-run",
       "--no-zygote",
-      "--single-process",
     ],
   },
 };

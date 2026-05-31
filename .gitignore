@@ -18,3 +18,6 @@ docs/Gemfile.lock
 *.swp
 *.swo
 mise.toml
+
+# Claude Code
+.claude/
